@@ -1,10 +1,3 @@
-Final Project Submission
-
-* Student name: Susanna Han
-* Student pace: part time
-* Scheduled project review date/time: 07/05/2020
-* Instructor name: James Irving
-* Blog post URL: 
 
 # Introduction
 
