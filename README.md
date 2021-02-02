@@ -201,11 +201,9 @@ The top words used in positive responses include:
  - wait, 1
 
 ### Things to look into:
-1. There are a lot of negative responses correlated with the ipad2.
 
+1. There are a lot of negative responses correlated with the ipad2.
 
 2. In both the negative and positive responses people mention the design. Knowing that a lot of people tweeting about apple and google products are interested in the design. 
 
-
 3. There are positive responses towards the ipad/iphone.
-
