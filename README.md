@@ -165,20 +165,16 @@ Model 1 performance:
     - Negative 22% accuracy
     - Neutral 87% accuracy
     
-    
-    
  Model 2 performance:
      - Positive 50% accuracy
      - Negative 11% accuracy
      - Neutral 87% accuracy
-     
-     
 
-Both models are overfit as there is not enough text data for positive and negative responses to train the model. If the end result was to analyze data that have neutral responses. Model 2 would be the best model to use as it is not as overfit as model 1.
+Both models are over fit as there is not enough text data for positive and negative responses to train the model. If the end result was to analyze data that have neutral responses. Model 2 would be the best model to use as it is not as over fit as model 1.
 
 # Insight and Recommendations
 
-Due to the time frame at which the text data was extracted. It is recommended to keep in mind the context of the results as there are not many negative responses as positive, and positive as neutral. Also, positive responses uses a bigger variety of words where as negative responses use the same repeated words. 
+Due to the time frame at which the text data was extracted on Twitter. It is recommended to keep in mind the context of the results as there are not many negative responses as positive, and positive as neutral. Also, positive responses uses a bigger variety of words where as negative responses use the same repeated words. 
 
 The top words used in negative responses include:
  - ipad2, 61
