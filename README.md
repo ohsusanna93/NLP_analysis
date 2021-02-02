@@ -22,7 +22,6 @@ Using a Natural Language Processing model allows us to analyze text data, which 
 The data set we used has three columns which includes the tweet (the review), which product the review is referring to, and whether or not the review was positive, negative, or neutral. 
 
 
-
 Below are all libraries and programs used in building our models:
 
 
@@ -123,7 +122,7 @@ def plot_importance(tree_clf, top_n=20,figsize=(10,8)):
 
 # Observations
 
-First, we import the data and look through the dataset and make observations of what to change in the dataset to build a good model.
+First, the data is imported and explored looking at the different columns and rows. What type of data is present and how to manipulate the data for some insight.
 
 
 One of the first observations we see is that the column names are very long and make it more difficult to recall and work with. Therefore, they were modified and renamed to tweets, product, and emotion as shown below.
