@@ -125,9 +125,7 @@ def plot_importance(tree_clf, top_n=20,figsize=(10,8)):
 First, the data is imported and explored looking at the different columns and rows. What type of data is present and how to manipulate the data for some insight.
 
 
-One of the first observations we see is that the column names are very long and make it more difficult to recall and work with. Therefore, they were modified and renamed to tweets, product, and emotion as shown below.
-
-
+One of the first observations we see is that the column names are very long which makes it more difficult to recall and work with. Therefore, they were modified and renamed to tweets, product, and emotion as shown below.
 
 We have decided to keep all missing values in the product column to add more data to the correlation between tweet and emotion. The one missing row from the tweets column is dropped because it adds no value to the dataset.
 
@@ -140,35 +138,23 @@ We are able to see the imbalance in our dataset as there are many more neutral t
 
 After cleaning out the dataset we started to clean the text in the tweets column to properly train the model to process the given text. We use word_tokenize to separate each word and punctuation to more accurately get rid of empty spaces/words when using stopwords. 
 
-
-
 Stopwords is a list of common words that do not add meaning to a sentence. A 'more_punc' list was created to add to the stopwords list that were common in the data texts that didn't add any value.
-
-
 
 We used regular expression to find all urls, hashtags, retweets, and mention patterns to be replaced with '', which are all common tweet texts. 
 
-
-
-
 Then we figured out the frequency distribution for all the stopped_tokens as well as the bigrams to see the top most common words used in the text.
 
-
-
 A target column was created that indicated the tweet expressed a Positive emotion. Another column was created for tweets that had no emotion toward brand or product. Lastly, the negative column was created to count for the negative responses in the text.
-
-
-
 
 
 Creating separate columns helps vectorize the text when pulling the text through the model created. 
 
 # Model 1
-The overall base model has an accuracy of 70.4%.
+The base model uses Random Forest Classifier. The overall base model has an accuracy of 70.4%.
 
 # Model 2
 
-The second model has an overall accuracy of 69.8%
+The second model also uses Random Forest Classifier but the parameters are tested using Randomized Search CV. The model has an overall accuracy of 69.8%
 
 # Results and Conclusion
 
